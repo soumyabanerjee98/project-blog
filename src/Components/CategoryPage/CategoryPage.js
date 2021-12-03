@@ -14,18 +14,21 @@ componentDidMount()
 
 function CreateLatestArticles(data) {
     return <div key={data.id} className="articles-thumbnail">
-        <img src={data.imgURL} alt="kuchbhi" />
+        <img src={data.imgURL} alt="Error" />
         <div className="article-heading-home-flex">
             <div>
-                <Link to={`/${data.category}/${data.id}`}> <div className="latest-post-title-1">
-                    {data.title}     </div></Link>
+                <Link to={`/${data.category}/${data.id}`}>
+                    <div className="latest-post-title-1">
+                        {data.title}     
+                    </div>
+                </Link>
                 <p>{data.desc.substring(0, 150)}</p>
             </div>
-            <div> <span className="latest-home-type">{data.category}</span>
+            <div>
+                <span className="latest-home-type">{data.category}</span>
                 <span className="latest-home-date">{data.time}</span>
             </div>
         </div>
-
     </div>
 }
 

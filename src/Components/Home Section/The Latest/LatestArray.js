@@ -1,7 +1,7 @@
 const LatestArray = [
     {
-        fullname: "Jake Peralta",
-        email: "@username",
+        fullname: "Soumya Banerjee",
+        email: "@Soumya Banerjee",
         password: ""
     }
 ]

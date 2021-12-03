@@ -10,7 +10,7 @@ function LogIn() {
 
     const checkValid = (e) => {
         e.preventDefault();
-        if (emailValue === "a" && passValue === "a") {
+        if (emailValue === "banerjeesoumya771@gmail.com" && passValue === "soumya@98") {
             setActive(true);
             localStorage.setItem("user", "loggged")
         } else {

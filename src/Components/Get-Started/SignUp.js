@@ -44,7 +44,6 @@ function SignUp() {
             <div className="Log-in">
                 <h2 className="border-btm margauto">Create an Account!</h2>
                 <form className="login-form">
-                    {/* <label>Email: </label> */}
                     <input
                         ref={fullnameRef}
                         value={userDetails.fullname}
@@ -57,7 +56,6 @@ function SignUp() {
                         onChange={handleData}
                         required placeholder="Enter Your Email" type="email" name="email" />
 
-                    {/* <label>Password: </label> */}
                     <input
                         ref={passwordRef}
                         value={userDetails.password}

@@ -84,7 +84,6 @@
 }
 
 .latest-cover-slide {
-    background-image: url(../../../Images/cover2.jpg);
     background-size: cover;
     max-width: 900px;
     width: 100%;

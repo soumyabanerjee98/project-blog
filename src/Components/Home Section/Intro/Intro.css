@@ -42,14 +42,6 @@
     filter: brightness(0.8);
 }
 
-/* .second-cover-2 {
-    background-image: url(../../../Images/cover.jpg);
-    background-size: cover;
-    height: 300px;
-    position: relative;
-    border-radius: 0.5rem;
-} */
-
 
 .second-cover {
     max-height: 300px;
