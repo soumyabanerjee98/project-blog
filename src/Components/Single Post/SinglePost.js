@@ -174,7 +174,7 @@ function SinglePost() {
                                 </div>
                                 <div className="author-details">
                                     <div className="author-time">
-                                        Writtn by
+                                        Written by
                                     </div>
                                     <Link to={`/${blog.category}/${blog.id}/${blog.author}`}>
                                         <div className="author-name">
