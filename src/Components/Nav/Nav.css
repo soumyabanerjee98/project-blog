@@ -38,13 +38,13 @@ body {
     margin: 0;
     list-style-type: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     padding-inline-start: 0;
 }
 
 .nav-list ul li {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 500;
     padding: 0.5rem 1.5rem;
 }
@@ -112,13 +112,13 @@ body {
 
     .web-bg-nav a:hover {
         color: black;
-        border-bottom: 2px solid black !important;
+        border-bottom: 2px solid red !important;
     }
 
     .active {
         font-weight: 600;
         color: black;
-        border-bottom: 2px solid black !important;
+        border-bottom: 2px solid red !important;
     }
 }
 
@@ -129,14 +129,13 @@ a {
 
 .active {
     font-weight: 600;
-    color: white;
-    border-bottom: 2px solid white;
+    color: black;
+    border-bottom: 2px solid black;
 }
 
 .web-bg-nav {
     padding: 0.5rem 0;
     margin: 0 !important;
-    background-color: black;
     max-width: 1500px;
     border-radius: 0.5rem;
     width: 100%;
@@ -145,10 +144,10 @@ a {
 }
 
 .web-bg-nav a {
-    color: white;
+    color: black;
 }
 
 .web-bg-nav a:hover {
-    color: white;
-    border-bottom: 2px solid white;
+    color: black;
+    border-bottom: 2px solid red;
 }

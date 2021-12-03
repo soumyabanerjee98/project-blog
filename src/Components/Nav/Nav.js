@@ -30,7 +30,7 @@ function NavBar() {
                         <li><NavLink exact to="/" activeClassName="active">Home</NavLink></li>
                         {Navlinks.map(createNavLink)}
 
-                        <li><NavLink exact to="/GetStarted" activeClassName="active">{loggedIn ? "View Profile" : "Get Started"}</NavLink></li>
+                        <li><NavLink exact to="/GetStarted" activeClassName="active">{loggedIn ? "View Profile" : "Log In / Sign Up"}</NavLink></li>
                     </ul>
                 </div>
             </nav >
